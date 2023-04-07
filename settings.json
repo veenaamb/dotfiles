@@ -1,0 +1,57 @@
+{
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<esc>"]
+    }
+  ],
+  "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python3",
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "terminal.external.osxExec": "iTerm.app",
+  // "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.osx": "fish", 
+  "terminal.integrated.fontFamily": "Hack Nerd Font", 
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.rendererType": "dom",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "workbench.settings.editor": "json",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[graphql]": {
+    "editor.tabSize": 2
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDragAndDrop": false,
+  "code-runner.runInTerminal": true,
+  "git.autofetch": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "breadcrumbs.enabled": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Gruvbox Dark Medium"
+}
