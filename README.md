@@ -9,3 +9,7 @@ This repository contains my personal configuration files.
 ```sh
 "~/.config/fish/conf.d/omf.fish"
 ```
+##### .zshrc path 
+```sh
+"~/.zshrc"
+```
